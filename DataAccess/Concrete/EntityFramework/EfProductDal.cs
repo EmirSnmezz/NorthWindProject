@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Schema;
 
 namespace DataAccess.Concrete.EntityFramework
 {
@@ -13,6 +14,13 @@ namespace DataAccess.Concrete.EntityFramework
     {
         public EfProductDal(EntityContext dbcontext) : base(dbcontext)
         {
+        }
+
+        public List<Product> GetByName(string name)
+        {
+            var result = GetAll(x => x.ProductName == name);
+
+            return result;
         }
     }
 }
