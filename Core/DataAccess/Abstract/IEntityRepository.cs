@@ -14,7 +14,7 @@ namespace Core.DataAccess.Abstract
         public void Update(T entity);
         public void Delete(T entity);
         public List<T> GetAll(Expression<Func<T,bool>> filter = null);
-        public List<T> GetById(int id);
-        public List<T> GetByName(string name);
+        public T GetById(int id);
+        //public T GetByName(string name);
     }
 }
