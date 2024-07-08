@@ -12,10 +12,11 @@ namespace DataAccess.Concrete.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=EMIRSNMEZ;Initial Catalog=northwind;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False");
+            optionsBuilder.UseSqlServer("Data Source=EMIRSNMEZ;Initial Catalog=northwind;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
         }
 
-        DbSet<Customer> customers;
-        DbSet<Category> categories;
+        DbSet<Customer> Customers { get; set; }
+        DbSet<Category> Categories { get; set; }
+        DbSet<Product> Products { get; set; }
     }
 }

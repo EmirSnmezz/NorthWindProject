@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{AC6993F9-2477-4BE6-90FD-C6CBA61EE8CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{AC6993F9-2477-4BE6-90FD-C6CBA61EE8CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{0DE218DE-4AA2-49B1-89A3-391E8FB80D4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{0DE218DE-4AA2-49B1-89A3-391E8FB80D4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{A599F836-33BC-4A9E-B3B1-4C52C69AB38B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{A599F836-33BC-4A9E-B3B1-4C52C69AB38B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{CAA8C102-5841-453D-911B-BB2FF0AD36D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{CAA8C102-5841-453D-911B-BB2FF0AD36D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{B23CB195-F98E-43F6-8605-0D92E474A87C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{B23CB195-F98E-43F6-8605-0D92E474A87C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uı", "Uı\Uı.csproj", "{A5ED8337-AABB-4961-9C60-84AED00FF55F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B23CB195-F98E-43F6-8605-0D92E474A87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B23CB195-F98E-43F6-8605-0D92E474A87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B23CB195-F98E-43F6-8605-0D92E474A87C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5ED8337-AABB-4961-9C60-84AED00FF55F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5ED8337-AABB-4961-9C60-84AED00FF55F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5ED8337-AABB-4961-9C60-84AED00FF55F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5ED8337-AABB-4961-9C60-84AED00FF55F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
